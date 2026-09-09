@@ -27,7 +27,7 @@ Logpush's supported destination list changes over time — verify it before comm
 ## Data flow: edge event to downstream system
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Edge event\nHTTP request, WAF match,\nWorker invocation, DNS query] --> B{Where does it need\nto be visible?}
     B -->|Dashboard, ad hoc| C[Zone Analytics\ndashboard]
     B -->|Programmatic, filtered| D[GraphQL Analytics API]
