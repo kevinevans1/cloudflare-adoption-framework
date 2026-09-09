@@ -8,6 +8,20 @@ trademarks of Cloudflare, Inc. Their use in this repository is purely
 descriptive/nominative — to identify and refer to the products this
 framework provides guidance on — and implies no sponsorship or endorsement.
 
+**Inspiration & attribution.** This framework's structure — a sequential,
+phase-based adoption lifecycle (Strategy, Plan, Foundation, Adopt, Govern,
+Secure, Manage) — follows the general "cloud adoption framework" pattern
+that has become a common, widely-used methodology across the cloud
+industry for helping organizations plan and govern platform adoption at
+scale. No text, diagrams, or other content is copied from any other
+vendor's materials — every page here is original writing grounded in
+Cloudflare's own public documentation, and the phase names and sequencing
+have been adapted specifically to how Cloudflare's platform actually works.
+This project's companion repository, [`cloudflare-well-architected`](https://github.com/kevinevans1/cloudflare-well-architected),
+follows the same approach applied to a pillar-based (Reliability, Security,
+Cost Optimization, Operational Excellence, Performance Efficiency) model
+for individual workloads.
+
 **Authorship.** This framework is written and maintained by [Kevin Evans]
 (https://github.com/kevinevans1), a Cloudflare employee, on personal time and
 in a personal capacity. It draws exclusively on Cloudflare's **public**

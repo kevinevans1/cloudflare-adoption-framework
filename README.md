@@ -1,11 +1,11 @@
 # Cloudflare Adoption Framework
 
 An independent, community-maintained framework for planning, deploying,
-governing, and operating Cloudflare at organizational scale — modeled on the
-lifecycle structure of the Microsoft Azure Cloud Adoption Framework and the
-AWS Cloud Adoption Framework, adapted to how Cloudflare's platform actually
-works: a specialized, developer-first network, security, and application
-platform rather than a general-purpose IaaS hyperscaler.
+governing, and operating Cloudflare at organizational scale — following the
+phase-based "cloud adoption framework" pattern common across the cloud
+industry, adapted to how Cloudflare's platform actually works: a
+specialized, developer-first network, security, and application platform
+rather than a general-purpose IaaS hyperscaler.
 
 **Read it here:** https://kevinevans1.github.io/cloudflare-adoption-framework/
 
@@ -15,10 +15,9 @@ platform rather than a general-purpose IaaS hyperscaler.
 
 ## What this is
 
-Seven phases, mirroring how Microsoft's CAF is organized, rebuilt around
-Cloudflare's actual product surface (Zero Trust/SASE, the developer
-platform, network services, and application security) instead of virtual
-machines and subscriptions:
+Seven phases, built around Cloudflare's actual product surface (Zero
+Trust/SASE, the developer platform, network services, and application
+security) instead of virtual machines and subscriptions:
 
 1. **Strategy** — why Cloudflare, and where it fits next to (or instead of)
    a hyperscaler
@@ -35,8 +34,7 @@ machines and subscriptions:
    operations, continuous improvement
 
 See also its companion project, [**Cloudflare Well-Architected**](https://github.com/kevinevans1/cloudflare-well-architected),
-which provides pillar-level design guidance for individual workloads —
-the same relationship the Azure Well-Architected Framework has to CAF.
+which provides pillar-level design guidance for individual workloads.
 
 ## Running the site locally
 

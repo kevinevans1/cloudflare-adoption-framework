@@ -125,6 +125,12 @@ nav:
       - Performance Operations: manage/performance-operations.md
       - Reliability Operations: manage/reliability-operations.md
       - Continuous Improvement: manage/continuous-improvement.md
+  - Scenarios:
+      - Overview: scenarios/index.md
+      - Startup: scenarios/startup.md
+      - Agency & Multi-Tenant: scenarios/agency-multi-tenant.md
+      - Migrating from a Legacy Vendor: scenarios/legacy-vendor-migration.md
+      - Regulated & Compliance-Heavy Orgs: scenarios/regulated-industry.md
   - Reference:
       - Glossary: reference/glossary.md
       - Product Map by Phase: reference/product-map.md
