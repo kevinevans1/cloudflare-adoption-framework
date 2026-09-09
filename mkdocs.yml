@@ -1,0 +1,132 @@
+site_name: Cloudflare Adoption Framework
+site_description: >-
+  An independent, community-maintained framework for planning, deploying, governing,
+  and operating Cloudflare at organizational scale.
+site_url: https://kevinevans1.github.io/cloudflare-adoption-framework/
+repo_url: https://github.com/kevinevans1/cloudflare-adoption-framework
+repo_name: kevinevans1/cloudflare-adoption-framework
+edit_uri: edit/main/docs/
+copyright: >-
+  This is an independent, community-maintained project. It is not produced by,
+  affiliated with, endorsed by, or sponsored by Cloudflare, Inc. "Cloudflare" and
+  related marks are trademarks of Cloudflare, Inc. All product information is
+  sourced from public Cloudflare documentation and linked at point of use.
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kevinevans1
+  generator: false
+
+nav:
+  - Home: index.md
+  - How to Use This Framework: how-to-use.md
+  - Strategy:
+      - Overview: strategy/index.md
+      - Why Cloudflare: strategy/why-cloudflare.md
+      - Positioning Cloudflare vs. Hyperscaler Cloud: strategy/positioning.md
+      - Business Justification: strategy/business-justification.md
+      - Assessing Workload Fit: strategy/workload-fit.md
+  - Plan:
+      - Overview: plan/index.md
+      - Digital Estate & Onboarding Inventory: plan/digital-estate.md
+      - Choosing a Plan Tier: plan/choosing-a-plan.md
+      - Skills & Team Readiness: plan/skills-readiness.md
+      - Migration Planning: plan/migration-planning.md
+  - Foundation:
+      - Overview: foundation/index.md
+      - Accounts & Organizations: foundation/accounts-and-organizations.md
+      - Identity & Access Control: foundation/identity-and-access.md
+      - DNS Foundation: foundation/dns-foundation.md
+      - Network Foundation: foundation/network-foundation.md
+      - Infrastructure as Code: foundation/infrastructure-as-code.md
+      - Naming & Tagging Conventions: foundation/naming-and-tagging.md
+  - Adopt:
+      - Overview: adopt/index.md
+      - Migrating DNS: adopt/migrating-dns.md
+      - Onboarding a Site (CDN/Proxy): adopt/onboarding-a-site.md
+      - Rolling Out Edge Security: adopt/rolling-out-security.md
+      - Zero Trust Adoption Path: adopt/zero-trust-adoption.md
+      - Building on the Developer Platform: adopt/developer-platform.md
+      - CI/CD & Infrastructure Delivery: adopt/cicd-and-delivery.md
+  - Govern:
+      - Overview: govern/index.md
+      - Policy & Guardrails: govern/policy-and-guardrails.md
+      - Cost Governance: govern/cost-governance.md
+      - Compliance Mapping: govern/compliance-mapping.md
+      - Change Management: govern/change-management.md
+  - Secure:
+      - Overview: secure/index.md
+      - Shared Responsibility Model: secure/shared-responsibility.md
+      - Edge Security Baseline: secure/edge-security-baseline.md
+      - Zero Trust Security Architecture: secure/zero-trust-architecture.md
+      - Data Protection: secure/data-protection.md
+      - Incident Response & Status Monitoring: secure/incident-response.md
+  - Manage:
+      - Overview: manage/index.md
+      - Observability & Analytics: manage/observability.md
+      - Cost Optimization (FinOps): manage/cost-optimization.md
+      - Performance Operations: manage/performance-operations.md
+      - Reliability Operations: manage/reliability-operations.md
+      - Continuous Improvement: manage/continuous-improvement.md
+  - Reference:
+      - Glossary: reference/glossary.md
+      - Product Map by Phase: reference/product-map.md
+      - Related Frameworks: reference/related-frameworks.md
+      - Further Reading & Sources: reference/further-reading.md
