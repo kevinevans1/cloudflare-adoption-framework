@@ -9,6 +9,8 @@ rather than a general-purpose IaaS hyperscaler.
 
 **Read it here:** https://kevinevans1.github.io/cloudflare-adoption-framework/
 
+🍁 Written and maintained by [Kevin Evans](https://github.com/kevinevans1), based in Canada.
+
 > [!IMPORTANT]
 > This is an independent project, not affiliated with or endorsed by
 > Cloudflare, Inc. See [`NOTICE.md`](NOTICE.md) for the full disclaimer.
