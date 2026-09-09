@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Identity & Access Control
 
 Every other foundation decision — account structure, DNS changes, WAF rules, Zero Trust policy — is only as safe as the identity model controlling who and what can make those changes. Cloudflare splits this into two problems: **human access** to the dashboard and API (account roles, SSO, audit logging) and **machine access** for automation (API tokens vs. legacy keys). Design both before onboarding your first production zone — not after an incident forces the conversation.

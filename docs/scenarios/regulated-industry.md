@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenario: Regulated & Compliance-Heavy Orgs
 
 For a regulated organization — finance, healthcare, government, or any sector with sector-specific audit requirements — adoption isn't gated by engineering readiness, it's gated by compliance sign-off. The technical capabilities are the same Cloudflare platform everyone else uses; the difference is *when* compliance and legal get involved, and how much evidence the rollout has to produce along the way.

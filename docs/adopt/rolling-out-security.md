@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Rolling Out Edge Security
 
 Turning on Cloudflare's edge security products all at once, in blocking mode, across every zone, is how you generate a flood of support tickets and an emergency rollback within a day. Every product below — WAF, rate limiting, bot management — supports a log-first, observe, then enforce pattern, and Cloudflare's own guidance leans on it deliberately, including a built-in staged rollout for its managed rulesets. This page walks through rolling out each control safely, zone by zone, without treating "turn it on" and "block with it" as the same step.

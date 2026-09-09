@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Skills & Team Readiness
 
 Cloudflare adoption touches at least four distinct skill sets that, in most organizations, live in different teams and rarely talk day-to-day: network/DNS administration, security/WAF operations, application development, and IT/endpoint administration for Zero Trust. Adoption stalls when a group is assumed to "just pick it up" without dedicated time to learn the platform, or when nobody's assigned ownership of a capability at all.

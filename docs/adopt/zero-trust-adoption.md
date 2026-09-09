@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Zero Trust Adoption Path
 
 Replacing a corporate VPN with Cloudflare's Zero Trust / SASE platform is as much a change management problem as a technical one. The technical pieces (Access, the Cloudflare One Client, Tunnel, Gateway) are well documented, but rolling them out to every employee on day one, cold, fills the helpdesk queue with "I can't reach the internal wiki" tickets.

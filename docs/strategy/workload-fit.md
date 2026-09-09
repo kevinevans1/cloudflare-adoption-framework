@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Assessing Workload Fit
 
 Not every workload belongs on Cloudflare, and not every Cloudflare-suitable workload belongs on the developer platform specifically. This page gives you a practical, repeatable framework for assessing an individual workload — use it during Strategy for the first few candidates, and again during Plan/Adopt whenever a new team wants to bring something onto the platform.

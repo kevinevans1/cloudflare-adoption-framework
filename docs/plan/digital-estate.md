@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Digital Estate & Onboarding Inventory
 
 You can't plan a migration around infrastructure you haven't catalogued. Before any zone touches Cloudflare, inventory what you actually have — domains, DNS records, existing CDN/WAF vendors, origin infrastructure, and the applications that depend on all of it. It's unglamorous work, and the single best predictor of whether a migration goes smoothly or turns into a string of surprise outages.

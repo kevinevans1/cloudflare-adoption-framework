@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Migration Planning
 
 Migrating to Cloudflare is rarely a single cutover — it's a series of smaller, independently reversible changes, each validated before the next happens. Organizations that have a bad time treat "move to Cloudflare" as one event: flip DNS for every domain at once, turn on every WAF managed ruleset in block mode simultaneously, and hope nothing breaks. Organizations that have a good time break it into waves, sequence low-risk changes before high-risk ones, and keep a rollback path open at every step.

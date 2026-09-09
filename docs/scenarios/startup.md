@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenario: Startup
 
 A startup applying this framework should compress it, not skip it. The seven phases still apply — but a two-person engineering team doesn't need a Foundation phase that takes weeks, and shouldn't provision Enterprise-tier governance for a single zone. This page is the fast path: what to actually do, in what order, before you outgrow it.

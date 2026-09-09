@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Policy & Guardrails
 
 Cloudflare has no native "organizational policy" that cascades to every zone automatically, the way a cloud provider's policy service might. It has [Terraform](https://developers.cloudflare.com/terraform/), the [Rulesets engine](https://developers.cloudflare.com/ruleset-engine/), and account/zone-level API resources — turning those primitives into guardrails is the adopting organization's job. This page covers what a sane baseline looks like and how to keep it from drifting.

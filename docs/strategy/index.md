@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Strategy
 
 The Strategy phase decides *why* you're adopting Cloudflare, *for what*, and how you'll justify the investment — before any account gets created or DNS record touched. Skipping it is the single most common cause of Cloudflare deployments that stall at "we turned on the orange cloud for one domain": nobody articulated the problem being solved, so nobody builds momentum to go further.

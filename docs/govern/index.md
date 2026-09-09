@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Govern
 
 Governance is the phase where a Cloudflare footprint stops being "whatever the first team set up" and becomes something an organization can reason about. It matters most exactly when it's least visible on day one: the moment a second team, a second zone, or a second account joins the first one.

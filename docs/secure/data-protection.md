@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Data Protection
 
 Data protection on Cloudflare spans three distinct trust boundaries: the client-to-edge connection, the edge-to-origin connection, and data at rest in Cloudflare's own storage products. Each has a separate configuration surface, and getting one right does not imply the others are covered.

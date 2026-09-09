@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Zero Trust Security Architecture
 
 [Cloudflare One](https://developers.cloudflare.com/cloudflare-one/) is Cloudflare's Secure Access Service Edge (SASE) platform: it combines Zero Trust Network Access, a secure web gateway, and WAN connectivity into one control plane, enforced at Cloudflare's edge rather than through appliances at each office or data center. This page covers how the four core components compose into a working architecture and where each decision point sits.

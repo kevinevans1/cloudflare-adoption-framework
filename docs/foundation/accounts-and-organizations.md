@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Accounts & Organizations
 
 Everything in Cloudflare hangs off two container objects: the **account** and the **zone**. A zone is almost always a domain (or subdomain, in a partial/CNAME setup) — it holds DNS records, WAF rules, caching, and most per-site configuration. An account is the billing and membership boundary that owns one or more zones, plus account-scoped products like Workers, R2 buckets, Zero Trust configuration, and account-level API tokens.

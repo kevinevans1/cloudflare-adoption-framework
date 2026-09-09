@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Network Foundation
 
 Most Cloudflare adoption is web-application-shaped: a zone, some DNS records, a proxy in front of an origin. But organizations with real network infrastructure to protect or connect — data centers, branch offices, IP transit relationships — need Cloudflare at the network layer too, which means an earlier foundation decision: do you need Cloudflare to protect and carry your IP traffic (Magic Transit, Cloudflare WAN), and do you need to bring your own address space onto its network (BYOIP)?

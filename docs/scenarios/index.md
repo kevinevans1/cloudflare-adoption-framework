@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenarios
 
 The seven-phase lifecycle applies to every organization, but *how* you move through it depends heavily on what kind of organization you are. A five-person startup and a 200-zone regulated enterprise both do Strategy, Foundation, and Adopt — but they make very different decisions inside each phase.

@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Cost Governance
 
 Cloudflare pricing mixes flat-rate plan tiers (CDN/security/network) with pure usage-based billing (the developer platform: Workers, R2, D1, Queues, and friends). Governance here isn't about predicting an exact bill — it's making sure nobody is surprised by one, and that spend maps back to the team that generated it.

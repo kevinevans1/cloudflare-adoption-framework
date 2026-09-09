@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Positioning Cloudflare vs. Hyperscaler Cloud
 
 Cloudflare is best understood as a **specialized hyperscaler**: hyperscale in reach, specialized in purpose. Its network operates at the same scale and reach as AWS, Azure, or GCP's global infrastructure — but instead of general-purpose compute and storage, it's purpose-built for network, security, and developer-platform workloads. Comparing it feature-for-feature against a general-purpose IaaS provider and concluding it's "missing" managed relational databases at scale, GPU training instances, or a general-purpose VM fleet is the wrong frame — that's not the problem it's built to solve. The positioning question isn't "Cloudflare or a hyperscaler" — it's "which parts of my architecture belong on which platform."

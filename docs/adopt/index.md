@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Adopt
 
 With a [Foundation](../foundation/index.md) in place — account structure decided, identity locked down, DNS and (if relevant) network connectivity established, IaC and naming conventions ready — the Adopt phase is where Cloudflare adoption produces value. It splits into two tracks most organizations run in parallel, not sequentially:

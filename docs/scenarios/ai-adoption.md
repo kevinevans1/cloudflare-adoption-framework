@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenario: Adopting AI on Cloudflare
 
 Adopting AI isn't a separate platform decision from everything else in this framework — it's the same seven phases, applied to a fast-moving, cost-sensitive, and security-sensitive workload category. The main way organizations get this wrong is treating AI as exempt from the governance and security discipline the rest of the estate already has, because "it's just an API call to a model."

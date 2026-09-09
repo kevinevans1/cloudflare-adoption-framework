@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Why Cloudflare
 
 Cloudflare is a global network that sits between users and the applications they connect to — and, increasingly, a platform you build applications directly on top of. Both are accurate, and the tension between them is why "why Cloudflare" deserves a dedicated strategy conversation, not a one-line answer.

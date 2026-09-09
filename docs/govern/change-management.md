@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Change Management
 
 Security and network configuration on Cloudflare is powerful enough to break production in one API call — a WAF rule in Block mode with an over-broad expression, a DNS record change, a TLS mode flip. Change management here isn't process for its own sake; it's the difference between "we caught this in staging" and "we caught this in Search Console/the incident channel."

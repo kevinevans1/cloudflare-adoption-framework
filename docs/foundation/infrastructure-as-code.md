@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Infrastructure as Code
 
 Cloudflare's dashboard is fast enough that it's genuinely tempting to manage everything by hand — click to add a DNS record, a WAF rule, a Zero Trust Access policy. That works until you have more than a handful of zones, more than one engineer touching configuration, or a compliance requirement to show what changed and why. At that point, dashboard-only management becomes a liability: no diff before a change goes live, no review step, no audit trail beyond [Audit Logs](identity-and-access.md), and no reliable way to reproduce your configuration in a second account after an acquisition or disaster recovery.

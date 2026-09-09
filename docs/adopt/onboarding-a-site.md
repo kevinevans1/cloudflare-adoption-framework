@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Onboarding a Site (CDN/Proxy)
 
 Once DNS resolves correctly through Cloudflare (see [Migrating DNS](migrating-dns.md)), the next step is flipping a hostname to proxied (orange-cloud). A handful of decisions determine whether that flip is safe: how Cloudflare talks to your origin over TLS, what gets cached, and how you ensure only Cloudflare — not the public Internet — can reach your origin.

@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Edge Security Baseline
 
 Public-facing traffic on Cloudflare passes through a stack of independent security layers before it reaches your origin. Each layer catches a different class of problem and must be deliberately configured — none provide meaningful protection unconfigured. This page covers the layers in evaluation order, what each is good at, and a sane baseline rollout order.

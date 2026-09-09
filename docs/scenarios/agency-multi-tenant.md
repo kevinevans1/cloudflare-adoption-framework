@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenario: Agency & Multi-Tenant
 
 Web agencies, MSPs, and SaaS platforms that provision a Cloudflare zone per customer face a different Foundation problem than a single-product company: account structure isn't a one-time decision, it's a repeatable pattern that has to work for customer 5 and customer 500 alike. Get this wrong and every new customer onboarding is a bespoke, error-prone exercise.

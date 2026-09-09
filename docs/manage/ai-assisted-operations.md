@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # AI-Assisted Operations (MCP)
 
 Model Context Protocol (MCP) lets an AI assistant — Claude, Cursor, VS Code, or any MCP-compatible client — connect directly to a Cloudflare account and inspect, query, or change it. This is a genuinely new operational capability, and it deserves the same deliberate rollout as any other privileged access path into the estate, not the casual "someone connected it to try it out" adoption pattern that new tools tend to get.

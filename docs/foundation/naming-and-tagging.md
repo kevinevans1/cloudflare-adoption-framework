@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Naming & Tagging Conventions
 
 Cloudflare doesn't force much naming structure on you — a zone is a domain, a Worker script gets whatever name you give it at `wrangler deploy` time, an Access application gets a free-text label. That flexibility is exactly why a deliberate convention matters: without one, a growing estate of zones, Workers, rulesets, and Access applications turns into names nobody can parse without asking whoever created them.

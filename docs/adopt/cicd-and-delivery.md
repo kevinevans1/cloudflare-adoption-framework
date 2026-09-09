@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # CI/CD & Infrastructure Delivery
 
 Shipping application code and shipping infrastructure configuration (DNS, WAF, Zero Trust policy) are related but distinct pipelines on Cloudflare. Conflating them causes problems: application deploys should be fast and frequent, while infrastructure changes to production DNS or security policy usually warrant more deliberate review.

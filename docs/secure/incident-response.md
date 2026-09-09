@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Incident Response & Status Monitoring
 
 When something goes wrong — a DDoS attack, an origin outage, a WAF rule blocking legitimate traffic, or Cloudflare itself having an incident — the difference between a contained event and a prolonged outage usually comes down to how fast the right person finds out and how well-rehearsed the response is. This page covers monitoring, alerting, response basics, and post-incident review for a Cloudflare-fronted architecture.

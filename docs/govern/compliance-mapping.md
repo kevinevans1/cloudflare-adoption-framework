@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Compliance Mapping
 
 **This page is not legal advice.** It maps common regulatory concerns to Cloudflare capabilities that are documented as of this writing, so a compliance or legal team can evaluate them — it does not certify that using these features makes any specific workload compliant with any specific regulation. Compliance status depends on your full architecture, your contractual terms with Cloudflare, your data flows outside of Cloudflare, and your regulator's interpretation — none of which this framework can see. Always validate current certifications and scope against Cloudflare's own [Trust Hub](https://www.cloudflare.com/trust-hub/) and your organization's legal/compliance function before making any representation to an auditor, regulator, or customer.

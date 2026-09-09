@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Building on the Developer Platform
 
 Cloudflare's developer platform is the other half of the Adopt phase: instead of migrating existing traffic, you're building new applications directly on Cloudflare's edge compute and storage primitives. Two decisions matter most up front:

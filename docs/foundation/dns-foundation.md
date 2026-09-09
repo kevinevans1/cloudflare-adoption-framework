@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # DNS Foundation
 
 DNS is where almost every organization's Cloudflare adoption starts, and it's the piece of foundation work most likely to get rushed. That's a mistake: DNS is the trust anchor for everything else you do on Cloudflare. Whether a hostname is proxied determines whether the WAF, bot management, and caching you configure later actually apply to it. How you delegate authority (full nameserver setup vs. partial CNAME setup) determines how much of your DNS estate Cloudflare can see and protect.

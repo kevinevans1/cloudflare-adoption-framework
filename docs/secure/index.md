@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Secure
 
 Security on Cloudflare isn't a gate you pass through once during onboarding — it's a phase that runs continuously, in parallel with every other phase in this framework. A zone that passed a security review at [Adopt](../adopt/rolling-out-security.md) time can be actively misconfigured six months later: a new route got added, a managed ruleset shipped a new detection that needs tuning, or a Zero Trust policy never got updated when the app inventory changed.

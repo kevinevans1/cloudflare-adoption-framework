@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Choosing a Plan Tier
 
 Cloudflare sells plans along two largely independent axes: the **zone/website plan** (Free, Pro, Business, Enterprise), which governs CDN, WAF, and performance features per domain; and the separate **Zero Trust plan**, which governs Access, Gateway, and the rest of Cloudflare One, typically priced per seat. Most organizations mix tiers — for example, Business-tier zones for customer-facing production domains and Free-tier zones for internal or low-risk properties — rather than picking one tier for the whole estate.

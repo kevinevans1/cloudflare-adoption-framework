@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Business Justification
 
 Getting budget and buy-in for a Cloudflare adoption requires a business case, not just an architecture diagram. This page gives you a framework for building that case — categories of value and how to reason about each — not fabricated numbers to plug into a slide. Every organization's baseline differs; fill this framework in with *your* numbers, sourced from your own vendor contracts, incident history, and cloud bills.

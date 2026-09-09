@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Scenario: Migrating from a Legacy Vendor
 
 Replacing an existing CDN, WAF, or VPN vendor is a fundamentally different exercise from greenfield adoption — you already have a working configuration, real production traffic, and (usually) a contract end date forcing the timeline. The core risk isn't "will Cloudflare work," it's "will the cutover preserve every rule, record, and behavior nobody remembers configuring."

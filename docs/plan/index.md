@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Plan
 
 Once Strategy establishes why you're adopting Cloudflare and for what, the Plan phase turns that into an executable onboarding plan: what you're bringing onto the platform, which plan tier fits, whether the team is ready to operate it, and in what sequence the migration happens. This is where a vague mandate ("get us on Cloudflare") becomes a concrete list of zones, a chosen plan tier, named owners, and a wave-by-wave cutover schedule.

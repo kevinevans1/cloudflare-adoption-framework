@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Foundation
 
 The Foundation phase is Cloudflare's version of a "landing zone": the reusable, opinionated baseline every zone, Worker, and Zero Trust policy builds on. Get it wrong and you spend years unwinding inconsistent account structures, orphaned API keys, and unexplained DNS records. Get it right once, and every later zone onboarding, security rollout, or developer platform project becomes repeatable instead of bespoke.

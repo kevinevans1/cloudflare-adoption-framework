@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Migrating DNS
 
 DNS migration is almost always the first real production change in a Cloudflare adoption, and it's unforgiving of shortcuts — a missed record or premature nameserver cutover can take down mail, break a third-party integration, or silently drop traffic. This page lays out a staged approach that keeps every step reversible until you're confident the new configuration is complete and correct.

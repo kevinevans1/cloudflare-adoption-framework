@@ -1,3 +1,5 @@
+--8<-- "_snippets/disclaimer.md"
+
 # Shared Responsibility Model
 
 Cloudflare sits in a different architectural position than a hyperscaler: it's a reverse proxy, DNS authority, and network edge in front of infrastructure you may still run entirely elsewhere. That position changes the shape of the shared responsibility model — Cloudflare secures its own network and the services it operates by default; you're responsible for configuring the protections that apply to *your* traffic, *your* origin, and *your* policies on top of that network. Proxying traffic through Cloudflare does not automatically make an application secure.
