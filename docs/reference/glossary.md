@@ -6,6 +6,12 @@ Terms used throughout this framework, each with a short definition and a link to
 
 **Account** — A container for one or more zones and members, with roles and permissions applied at the account level. Account-level products (Workers, Pages, Security Center, and others) can affect some or all zones within it. See [Accounts, zones, and profiles](https://developers.cloudflare.com/fundamentals/concepts/accounts-and-zones/).
 
+**Agents SDK** — A framework for building stateful, durable agents on Workers, giving each agent a persistent identity, storage, and recoverable execution without managing separate infrastructure. See [Agents overview](https://developers.cloudflare.com/agents/).
+
+**AI Gateway** — A control layer sitting in front of any model provider (Workers AI or external providers like OpenAI, Anthropic, and Gemini) that adds caching, rate limiting, retries/fallback, logging, and cost analytics to every model call. See [AI Gateway](https://developers.cloudflare.com/ai-gateway/).
+
+**AI Search** *(formerly AutoRAG)* — A managed retrieval-augmented generation (RAG) product that automates chunking, embedding, indexing, and hybrid (semantic + keyword) retrieval over your own content. See [AI Search](https://developers.cloudflare.com/ai-search/).
+
 **Anycast** — A network routing technique where the same IP address is announced from many data centers simultaneously, and standard Internet routing (BGP) delivers each request to a topologically nearby location. This underlies Cloudflare's global network, giving it both low latency and inherent DDoS resilience. See [Cloudflare IP addresses](https://developers.cloudflare.com/fundamentals/concepts/cloudflare-ip-addresses/).
 
 **Argo Smart Routing** — A performance product that uses Cloudflare's real-time network telemetry to route traffic across the fastest available path to origin, rather than the Internet's default (often not shortest) path, for requests that reach origin. See [Argo Smart Routing](https://developers.cloudflare.com/argo-smart-routing/).
@@ -54,13 +60,19 @@ Terms used throughout this framework, each with a short definition and a link to
 
 **Managed Ruleset** — A ruleset authored and maintained by Cloudflare (rather than by the customer) and deployed into an account's or zone's Ruleset Engine phase — for example, the Cloudflare Managed Ruleset used by the WAF. See [Cloudflare Managed Ruleset](https://developers.cloudflare.com/waf/managed-rules/reference/cloudflare-managed-ruleset/).
 
+**MCP (Model Context Protocol)** — An open protocol that lets an AI assistant connect to external tools and data sources. Cloudflare hosts its own remote MCP servers — a full-account server plus narrower, product-specific servers — that let a connected assistant inspect and manage a Cloudflare account. See [Cloudflare's own MCP servers](https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/).
+
 **mTLS (Mutual TLS)** — A TLS handshake in which both parties present and validate certificates, not just the server — used by Cloudflare both for Authenticated Origin Pulls (Cloudflare-to-origin) and for API Shield's client-certificate authentication (client-to-Cloudflare). See [Mutual TLS (API Shield)](https://developers.cloudflare.com/api-shield/security/mtls/).
+
+**Neuron** — The unit Workers AI bills inference against, roughly proportional to compute used per request — check current pricing rather than assuming a fixed cost per call. See [Workers AI pricing](https://developers.cloudflare.com/workers-ai/platform/pricing/).
 
 **Pages** — Cloudflare's platform for deploying frontend/static and framework-based sites directly from a Git repository, with automatic builds and preview deployments; increasingly converges with Workers' static-assets capabilities. See [Pages](https://developers.cloudflare.com/pages/).
 
 **Proxied record** *(orange cloud)* — A DNS record whose traffic is routed through Cloudflare's network: DNS queries resolve to a Cloudflare Anycast IP, and HTTP/HTTPS requests are proxied, cached, and protected according to that zone's configuration. See [Proxy status](https://developers.cloudflare.com/dns/proxy-status/).
 
 **Queue** — A managed message queue product integrated with Workers, providing guaranteed at-least-once delivery, batching, and Worker-to-Worker messaging without egress charges. See [Queues](https://developers.cloudflare.com/queues/).
+
+**RAG (Retrieval-Augmented Generation)** — An architecture pattern that retrieves relevant content (typically via a vector search) and includes it as context in a model call, so the model answers using your own data instead of only its training data. See [AI Search](https://developers.cloudflare.com/ai-search/).
 
 **R2** — Cloudflare's S3-API-compatible object storage, priced with no charge for egress bandwidth (see [Cost Optimization](../manage/cost-optimization.md) for how this affects total cost). See [R2](https://developers.cloudflare.com/r2/).
 
@@ -72,9 +84,13 @@ Terms used throughout this framework, each with a short definition and a link to
 
 **Tiered Cache** — A caching feature that organizes Cloudflare's data centers into a hierarchy of lower and upper tiers, so cache misses at the edge are often satisfied by a nearby upper-tier data center instead of reaching origin. Reduces both origin load and the number of data centers connecting directly to origin. See [Tiered Cache](https://developers.cloudflare.com/cache/how-to/tiered-cache/).
 
+**Vectorize** — Cloudflare's vector database, used for storing embeddings and running similarity search — the retrieval half of a RAG pipeline when not using the fully-managed AI Search. See [Vectorize](https://developers.cloudflare.com/vectorize/).
+
 **WAF (Web Application Firewall)** — Cloudflare's product for inspecting and filtering incoming HTTP/API requests against sets of rules (managed and custom) to block common web application attacks. See [Web Application Firewall](https://developers.cloudflare.com/waf/).
 
 **Workers** — Cloudflare's serverless compute platform, running JavaScript/TypeScript, Python, and other language runtimes directly on Cloudflare's network at the request path, billed on requests and CPU time. See [Workers](https://developers.cloudflare.com/workers/).
+
+**Workers AI** — Cloudflare's serverless inference product, running open-weight models on Cloudflare's network and billed in Neurons. See [Workers AI](https://developers.cloudflare.com/workers-ai/).
 
 **Wrangler** — The official command-line tool for developing, testing, and deploying Workers (and related Developer Platform resources), configured via a project's `wrangler` configuration file. See [Wrangler](https://developers.cloudflare.com/workers/wrangler/).
 

@@ -124,6 +124,7 @@ nav:
       - Cost Optimization (FinOps): manage/cost-optimization.md
       - Performance Operations: manage/performance-operations.md
       - Reliability Operations: manage/reliability-operations.md
+      - AI-Assisted Operations (MCP): manage/ai-assisted-operations.md
       - Continuous Improvement: manage/continuous-improvement.md
   - Scenarios:
       - Overview: scenarios/index.md
@@ -131,6 +132,7 @@ nav:
       - Agency & Multi-Tenant: scenarios/agency-multi-tenant.md
       - Migrating from a Legacy Vendor: scenarios/legacy-vendor-migration.md
       - Regulated & Compliance-Heavy Orgs: scenarios/regulated-industry.md
+      - Adopting AI on Cloudflare: scenarios/ai-adoption.md
   - Reference:
       - Glossary: reference/glossary.md
       - Product Map by Phase: reference/product-map.md
