@@ -2,6 +2,8 @@
 
 # Cloudflare Adoption Framework
 
+Welcome — this is a practical, community-maintained guide to planning, deploying, governing, and running Cloudflare across an organization, written for anyone from a first-time evaluator to a team managing hundreds of zones. Jump straight to whatever phase matches where you are; if a term isn't familiar yet, the [Glossary](reference/glossary.md) has you covered.
+
 Cloudflare is a **specialized hyperscaler**: a global network with the reach of a general-purpose cloud, purpose-built for network, security, and developer-platform workloads instead of general-purpose compute. Adopting it at organizational scale doesn't look like standing up a VM fleet or a VPC peering topology — it looks like configuring one control plane that sits in front of (or increasingly, instead of) your existing infrastructure, running everywhere on the network at once (see ["Region: Earth"](strategy/positioning.md)) rather than region by region.
 
 That's why organizations struggle to adopt it well. Teams onboard a zone, turn on the orange cloud, and stop — without deciding who owns account structure, how WAF changes get governed, whether Zero Trust replaces the VPN, or which workloads belong on the developer platform instead of a hyperscaler. This framework closes that gap: a structured, lifecycle-based approach to planning, deploying, governing, and operating Cloudflare across an entire organization — not just a single domain.
@@ -12,6 +14,7 @@ That's why organizations struggle to adopt it well. Teams onboard a zone, turn o
 - **Security architects** deciding how WAF, Bot Management, Zero Trust, and DDoS protection fit into an existing security program
 - **Engineering leaders and decision-makers** evaluating Cloudflare against (or alongside) a hyperscaler cloud, and building the business case
 - **Anyone inheriting a Cloudflare estate** that grew organically — many zones, inconsistent WAF configuration, no account-level governance — and needs to bring order to it
+- **Anyone new to Cloudflare** trying to understand what it actually is and whether/how it fits, before getting into the details
 
 It assumes you're operating at a scale where "one engineer added the domain to Cloudflare once" isn't good enough anymore — multiple zones, multiple teams touching the dashboard, or compliance/audit requirements that demand a documented approach.
 
