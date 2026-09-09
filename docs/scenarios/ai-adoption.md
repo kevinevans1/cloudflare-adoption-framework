@@ -10,8 +10,6 @@ flowchart LR
     GW --> WAI[Workers AI]
     GW --> EXT[External provider<br/>OpenAI, Anthropic, Gemini, etc.]
     GW -.->|cache, rate limit, fallback, log| GW
-
-    style GW fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 The single most important adoption decision in this scenario: route every model call — to Workers AI *or* an external provider — through AI Gateway, not directly. Everything else in this page (cost visibility, guardrails, fallback) depends on that one architectural choice being made early.

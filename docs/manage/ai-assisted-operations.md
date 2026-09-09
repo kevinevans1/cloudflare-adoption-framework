@@ -6,12 +6,11 @@ Model Context Protocol (MCP) lets an AI assistant — Claude, Cursor, VS Code, o
 
 ```mermaid
 flowchart LR
-    A[AI assistant<br/>Claude, Cursor, VS Code] -->|OAuth| M[mcp.cloudflare.com<br/>full API, 2500+ endpoints]
+    A[AI assistant<br/>Claude, Cursor, VS Code] -->|OAuth| M[mcp.cloudflare.com<br/>full Cloudflare API]
     A -->|OAuth| P[Product-specific servers<br/>Observability, AI Gateway, Audit Logs, etc.]
     M --> C[Cloudflare account]
     P --> C
 
-    style M fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 The primary server exposes the entire Cloudflare API surface; the product-specific servers (Observability, AI Gateway, Audit Logs, DNS Analytics, and others) scope access to one product area — prefer the narrower server for a given task over the full-account one, the same instinct that drives scoped API tokens over account-wide keys elsewhere in this framework.
