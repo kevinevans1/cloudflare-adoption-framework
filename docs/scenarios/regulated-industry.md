@@ -14,7 +14,6 @@ flowchart TD
     C --> D[Adopt: pilot on lowest-risk workload first]
     D --> E[Govern/Secure/Manage with a named compliance owner]
 
-    style C0 fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 The gate after Plan is the structural difference from the standard lifecycle: a regulated org validates the target architecture against its actual regulatory requirements *before* building Foundation, not after Adopt is already underway.

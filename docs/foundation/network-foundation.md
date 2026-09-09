@@ -17,7 +17,6 @@ flowchart LR
     MF --> MT[Magic Transit<br/>DDoS protection + anycast]
     CF --> WAN[Cloudflare WAN<br/>site-to-site connectivity]
 
-    style MT fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 On-ramp choice (GRE/IPsec vs. CNI) is a latency/cost trade-off; Magic Transit and Cloudflare WAN solve connectivity and protection respectively, and most enterprises use both together.

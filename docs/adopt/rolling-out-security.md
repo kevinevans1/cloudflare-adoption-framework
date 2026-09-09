@@ -14,8 +14,6 @@ flowchart LR
     E --> F[Expand to next zone]
     F --> A
 
-    style B fill:#fff3e0,stroke:#e65100,stroke-width:1px
-    style E fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 The same loop applies to WAF managed rulesets, custom rules, bot management, and rate limiting — only the specific mode names change (Log, Challenge, Simulate).

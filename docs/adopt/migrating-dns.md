@@ -15,8 +15,6 @@ flowchart TD
     E --> F[6. Flip proxy status hostname by hostname]
     F --> G[7. Retain rollback access until stable]
 
-    style B fill:#fff3e0,stroke:#e65100,stroke-width:1px
-    style F fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 Each step is individually reversible — the highlighted steps (grey-cloud first, staged proxy flip) are what keep it that way.

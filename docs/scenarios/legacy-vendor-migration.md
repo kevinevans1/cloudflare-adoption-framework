@@ -13,8 +13,6 @@ flowchart TD
     E --> F[Expand to full traffic]
     F --> G[Decommission legacy vendor]
 
-    style C fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style D fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 The step most teams underestimate is B: legacy WAF rules and VPN policies accumulate undocumented exceptions over years, and a literal one-to-one translation often just migrates old technical debt onto new infrastructure.

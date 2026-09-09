@@ -11,7 +11,6 @@ flowchart LR
     C --> D[Adopt: same week]
     D --> E[Govern/Secure/Manage: lightweight, ongoing]
 
-    style C fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 The Foundation phase is where startups most often either over-invest (designing a multi-account structure for one product) or under-invest (skipping identity hygiene entirely). Neither extreme is right — see below.

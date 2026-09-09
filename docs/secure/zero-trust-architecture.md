@@ -13,8 +13,6 @@ flowchart LR
     ACC --> T[Tunnel<br/>cloudflared, outbound-only]
     T --> App[Internal application]
 
-    style ACC fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style G fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 Gateway governs a device's traffic broadly; Access governs one application at a time. Tunnel is the connectivity primitive Access sits in front of — never expose a Tunnel without a matching Access policy.

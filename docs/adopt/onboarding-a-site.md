@@ -16,8 +16,6 @@ flowchart LR
     C -->|Full Strict: HTTPS, validated cert| E[Origin + Authenticated Origin Pulls]
     E -->|mTLS, Cloudflare-only| D2[Origin]
 
-    style E fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style D fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 Full (Strict) plus Authenticated Origin Pulls is the only path in this diagram where the origin is unreachable except through Cloudflare — every other path leaves either the transport or the origin itself exposed.

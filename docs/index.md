@@ -49,7 +49,6 @@ flowchart TD
         G
     end
 
-    style continuous fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 Strategy, Plan, and Foundation are sequential — done once, in order, before production traffic hits Cloudflare. Adopt is where zones, security controls, and Zero Trust go live, often in waves. Once live, **Govern, Secure, and Manage run continuously and in parallel** for the life of the estate — ongoing loops that feed each other (a security incident changes governance policy; a governance policy changes what Manage alerts on), not phases you "finish."

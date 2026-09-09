@@ -17,9 +17,6 @@ flowchart TD
     A -->|Per-entity coordination, real-time, strict order| DO[Durable Objects]
     A -->|Background/async work| Q[Queues]
 
-    style R2 fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style D1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style DO fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
 ```
 
 This mirrors [Cloudflare's own storage decision guide](https://developers.cloudflare.com/workers/platform/storage-options/) — the deciding question is always the access pattern, not familiarity with a given product.

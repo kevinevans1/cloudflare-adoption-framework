@@ -23,7 +23,6 @@ flowchart TD
     E --> F[Naming & tagging]
     F --> G[Adopt phase]
 
-    style A fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 ## Why sequence matters

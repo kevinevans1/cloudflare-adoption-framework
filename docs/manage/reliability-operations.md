@@ -14,8 +14,6 @@ flowchart LR
     HC[Health Checks / Monitor Groups] -.->|probes| P1
     HC -.->|probes| P2
 
-    style P1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style P2 fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 Steering policy decides *which* healthy pool gets traffic; health checks decide *whether* a pool is eligible at all — they're separate configuration decisions that both have to be right.

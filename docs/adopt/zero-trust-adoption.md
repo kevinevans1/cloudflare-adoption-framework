@@ -41,8 +41,6 @@ flowchart LR
     D --> E["Phase 4\nBrowser Isolation\nfor high-risk user segments"]
     E --> F["Phase 5\nLegacy VPN decommissioned\n(per-group, once validated)"]
 
-    style A fill:#999,color:#fff
-    style F fill:#2c7,color:#fff
 ```
 
 Each phase gate should have an explicit exit criterion — for example, Phase 1 exits when the pilot group has completed a full work cycle with no unresolved access-blocking issues, and Phase 5 (decommissioning) only proceeds group by group as each is validated, not as a single global cutover date.
